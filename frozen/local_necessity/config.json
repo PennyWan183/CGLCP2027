@@ -1,0 +1,25 @@
+{
+  "repetitions": 800,
+  "seed": 20260917,
+  "alpha": 0.1,
+  "rho": 0.02,
+  "audit_size": 30,
+  "lcp_bandwidth": 4.0,
+  "reuse_existing": false,
+  "output_dir": "experiment/simulation/results/local-necessity-aligned-0921",
+  "scenario_local_b": [
+    1,
+    3,
+    6,
+    12,
+    15,
+    24
+  ],
+  "global_contamination": 0.1,
+  "pool_size": 60,
+  "unsafe_score_scale": 0.1,
+  "pcs_sc_name_note": "PCS-SC is a manuscript shorthand introduced by us; the source paper labels its procedures Estimated and Corrected.",
+  "pcs_sc_simulation_selector": "working-graph predicted-safe set; held fixed to isolate correction and localization",
+  "pooled_and_graph_lcp_calibration_set": "all calibration interventions",
+  "pcs_calibration_set": "working-graph predicted-safe interventions"
+}
